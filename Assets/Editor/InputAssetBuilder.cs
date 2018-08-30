@@ -93,7 +93,7 @@ public class InputAssetBuilder : MonoBehaviour {
 		for (int i = 0; i < 30; i++) {
 			AddAxis(new InputAxis {
 				name = "JOY_A_" + i,
-				dead = 0.2f,
+				dead = 0.001f,
 				sensitivity = 1,
 				type = 2,
 				axis = i
