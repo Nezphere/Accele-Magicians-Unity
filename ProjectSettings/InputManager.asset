@@ -6,22 +6,6 @@ InputManager:
   serializedVersion: 2
   m_Axes:
   - serializedVersion: 3
-    m_Name: JOY_A_0
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
-    altNegativeButton: 
-    altPositiveButton: 
-    gravity: 0
-    dead: 0.001
-    sensitivity: 1
-    snap: 0
-    invert: 0
-    type: 2
-    axis: 0
-    joyNum: 0
-  - serializedVersion: 3
     m_Name: JOY_A_1
     descriptiveName: 
     descriptiveNegativeName: 
@@ -35,7 +19,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 1
+    axis: 0
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_2
@@ -51,7 +35,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 2
+    axis: 1
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_3
@@ -67,7 +51,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 3
+    axis: 2
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_4
@@ -83,7 +67,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 4
+    axis: 3
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_5
@@ -99,7 +83,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 5
+    axis: 4
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_6
@@ -115,7 +99,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 6
+    axis: 5
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_7
@@ -131,7 +115,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 7
+    axis: 6
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_8
@@ -147,7 +131,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 8
+    axis: 7
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_9
@@ -163,7 +147,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 9
+    axis: 8
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_10
@@ -179,7 +163,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 10
+    axis: 9
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_11
@@ -195,7 +179,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 11
+    axis: 10
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_12
@@ -211,7 +195,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 12
+    axis: 11
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_13
@@ -227,7 +211,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 13
+    axis: 12
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_14
@@ -243,7 +227,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 14
+    axis: 13
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_15
@@ -259,7 +243,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 15
+    axis: 14
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_16
@@ -275,7 +259,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 16
+    axis: 15
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_17
@@ -291,7 +275,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 17
+    axis: 16
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_18
@@ -307,7 +291,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 18
+    axis: 17
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_19
@@ -323,7 +307,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 19
+    axis: 18
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_20
@@ -339,7 +323,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 20
+    axis: 19
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_21
@@ -355,7 +339,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 21
+    axis: 20
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_22
@@ -371,7 +355,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 22
+    axis: 21
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_23
@@ -387,7 +371,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 23
+    axis: 22
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_24
@@ -403,7 +387,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 24
+    axis: 23
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_25
@@ -419,7 +403,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 25
+    axis: 24
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_26
@@ -435,7 +419,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 26
+    axis: 25
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_27
@@ -451,7 +435,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 27
+    axis: 26
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_28
@@ -467,7 +451,7 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 28
+    axis: 27
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_A_29
@@ -483,23 +467,23 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 29
+    axis: 28
     joyNum: 0
   - serializedVersion: 3
-    m_Name: JOY_B_0
+    m_Name: JOY_A_30
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: joystick button 0
+    positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
-    gravity: 1000
+    gravity: 0
     dead: 0.001
-    sensitivity: 1000
+    sensitivity: 1
     snap: 0
     invert: 0
-    type: 0
-    axis: 0
+    type: 2
+    axis: 29
     joyNum: 0
   - serializedVersion: 3
     m_Name: JOY_B_1
@@ -795,6 +779,22 @@ InputManager:
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: joystick button 19
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: JOY_B_20
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: 
     altNegativeButton: 
     altPositiveButton: 
     gravity: 1000

@@ -7,7 +7,7 @@ public class VirtualInputChannelTester : MonoBehaviour {
 
 	void OnEnable() {
 		keyChannel = new VirtualInputChannel(KeyCode.D, KeyCode.A);
-		axisChannel = new VirtualInputChannel { type = VirtualInputChannelType.Axis, name = "JOY_A_9" };
+		axisChannel = new VirtualInputChannel("JOY_A_9");
 //		axisChannel.isAxisToAxisRemapped = true;
 //		axisChannel.axisToAxisRemapType = Uif.EasingType.Cubic;
 //		axisChannel.axisToAxisRemapPhase = Uif.EasingPhase.In;

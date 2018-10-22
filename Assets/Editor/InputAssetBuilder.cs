@@ -90,17 +90,17 @@ public class InputAssetBuilder : MonoBehaviour {
 	static void BuildInputAsset() {
 		ClearAxises();
 
-		for (int i = 0; i < 30; i++) {
+		for (int i = 1; i <= 30; i++) {
 			AddAxis(new InputAxis {
 				name = "JOY_A_" + i,
 				dead = 0.001f,
 				sensitivity = 1,
 				type = 2,
-				axis = i
+				axis = i - 1
 			});
 		}
 
-		for (int i = 0; i < 20; i++) {
+		for (int i = 1; i <= 20; i++) {
 			AddAxis(new InputAxis {
 				name = "JOY_B_" + i,
 				positiveButton = "joystick button " + i,

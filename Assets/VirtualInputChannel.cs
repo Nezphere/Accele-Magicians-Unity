@@ -26,6 +26,25 @@ public sealed class VirtualInputChannel {
 
 	public VirtualInputChannel() {}
 
+	public VirtualInputChannel(string name) {
+		this.name = name;
+	}
+
+	public VirtualInputChannel(string name, float buttonToAxisValue) {
+		type = VirtualInputChannelType.Button;
+		this.name = name;
+		this.buttonToAxisValue = buttonToAxisValue;
+	}
+	
+
+	public VirtualInputChannel(string name, string negName, float buttonToAxisValue = 1) {
+		type = VirtualInputChannelType.Button;
+		this.name = name;
+		this.negName = negName;
+		this.buttonToAxisValue = buttonToAxisValue;
+	}
+	
+
 	public VirtualInputChannel(UnKeyCode key, float buttonToAxisValue = 1) {
 		type = VirtualInputChannelType.Key;
 		this.key = key;
@@ -42,14 +61,14 @@ public sealed class VirtualInputChannel {
 	public float GetAxis() {
 		if (type == VirtualInputChannelType.Axis) {
 			if (isAxisToAxisRemapped) {
-				float value = UnInput.GetAxis(name);
+				float value = UnInput.GetAxisRaw(name);
 				if (value < 0) {
 					return -Easing.Ease(axisToAxisRemapType, axisToAxisRemapPhase, -value) * axisToAxisRemapScale;
 				} else {
 					return Easing.Ease(axisToAxisRemapType, axisToAxisRemapPhase, value) * axisToAxisRemapScale;
 				}
 			} else {
-				return UnInput.GetAxis(name);
+				return UnInput.GetAxisRaw(name);
 			}
 		} else if (type == VirtualInputChannelType.Button) {
 			if (negName != null) {
